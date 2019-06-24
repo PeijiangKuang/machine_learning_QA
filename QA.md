@@ -43,8 +43,11 @@ sigma(s) 是 前后两次迭代的learning rate的倒数的差异
 2. l2正则
 3. 最优解不应离迭代过的参数太远
 最优解的显式解：
+
 w* = 0， if |zi(t)| < lambda1
+
 w* = -(zi(t) - lambda1 * sgn(zi(t))) / (lambda2 + sum sigma(s))，other
+
 其中：zi(t) = zi(t-1) + gi - sigma(t) w(t)
 
 所以，在FTRL实现的思路上，需要求解一下几个参数：
