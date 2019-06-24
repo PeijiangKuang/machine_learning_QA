@@ -13,6 +13,7 @@
 
 ## FTRL
 ### FTRL 是什么？为什么会有FTRL？
+### FTRL 需要保存什么参数？
 
 ## xgboost
 ### xgboost的原理是什么？
