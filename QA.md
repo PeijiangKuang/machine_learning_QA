@@ -72,6 +72,7 @@ w* = -(zi(t) - lambda1 * sgn(zi(t))) / (lambda2 + sum sigma(s))，other
 ## LR
 ### LR的loss function是什么？
 ### LR是线性模型，怎样体现非线性性？
+### LR为什么不用tanh？
 
 ## fm (factorization machine)
 ### fm 的表达式是什么？
@@ -80,6 +81,7 @@ w* = -(zi(t) - lambda1 * sgn(zi(t))) / (lambda2 + sum sigma(s))，other
 
 ## 梯度下降
 ### 梯度下降法有哪些？优化点在哪，区别在哪？
+### 不同的梯度下降法最终的结果有什么差异？1. 权重，2. loss，3. 稀疏度
 
 ## 模型方差 和 偏差
 ### 方差是什么？偏差是什么？
