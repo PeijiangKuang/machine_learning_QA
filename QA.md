@@ -107,3 +107,5 @@ w* = -(zi(t) - lambda1 * sgn(zi(t))) / (lambda2 + sum sigma(s))，other
 ## 推荐规则层
 ### 怎么平衡多样性和精准性
 
+## 最大的k个数，各种解法的复杂度
+
